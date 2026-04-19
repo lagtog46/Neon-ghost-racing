@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://di35ucrc72yo"]
+
+[ext_resource type="Texture2D" uid="uid://dte646i4lh60v" path="res://PNG/Car_1_Main_Positions/Car_1_01.png" id="1_f50pn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_186t8"]
+size = Vector2(522, 1133)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_f50pn"]
+
+[node name="Car" type="CharacterBody2D"]
+
+[node name="Car" type="Sprite2D" parent="."]
+position = Vector2(223, -92)
+texture = ExtResource("1_f50pn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(220, -98)
+shape = SubResource("RectangleShape2D_186t8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_f50pn")
