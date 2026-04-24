@@ -1,4 +1,13 @@
-[gd_scene format=3 uid="uid://ceujp85icpb68"]
+[gd_scene load_steps=4 format=3 uid="uid://ceujp85icpb68"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rhts7"]
+bg_color = Color(0.404521, 0.401898, 0.582416, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_06t4h"]
+bg_color = Color(0.403922, 0.4, 0.584314, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7vrkn"]
+bg_color = Color(0.403922, 0.4, 0.584314, 1)
 
 [node name="Main menu" type="Node2D"]
 
@@ -9,25 +18,46 @@ offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="start" type="Button" parent="Button manager"]
-layout_mode = 0
-offset_left = 411.0
-offset_top = 70.0
-offset_right = 584.0
-offset_bottom = 130.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 12.437
+anchor_top = 2.5
+anchor_right = 12.437
+anchor_bottom = 2.5
+offset_left = -86.48
+offset_top = -30.0
+offset_right = 84.52
+offset_bottom = 33.0
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_rhts7")
 text = "Start"
 
 [node name="Options" type="Button" parent="Button manager"]
-layout_mode = 0
-offset_left = 411.0
-offset_top = 134.0
-offset_right = 582.0
-offset_bottom = 194.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 12.412
+anchor_top = 4.1
+anchor_right = 12.412
+anchor_bottom = 4.1
+offset_left = -85.48
+offset_top = -30.0
+offset_right = 85.52
+offset_bottom = 30.0
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_06t4h")
 text = "Opptions"
 
 [node name="Quit" type="Button" parent="Button manager"]
-layout_mode = 0
-offset_left = 412.0
-offset_top = 196.0
-offset_right = 581.0
-offset_bottom = 255.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 12.412
+anchor_top = 5.637
+anchor_right = 12.412
+anchor_bottom = 5.637
+offset_left = -84.48
+offset_top = -29.48
+offset_right = 84.52
+offset_bottom = 33.52
+theme_override_font_sizes/font_size = 47
+theme_override_styles/hover = SubResource("StyleBoxFlat_7vrkn")
 text = "Quit"
