@@ -1,18 +1,15 @@
 [gd_scene load_steps=3 format=3 uid="uid://baprde8n60pns"]
 
 [ext_resource type="PackedScene" uid="uid://di35ucrc72yo" path="res://character_body_2d.tscn" id="1_6k1qx"]
-
-[sub_resource type="TileSet" id="TileSet_6k1qx"]
+[ext_resource type="PackedScene" uid="uid://q1s2170stspl" path="res://tile_map_layer.tscn" id="1_poj2o"]
 
 [node name="Neon Ghost Racing level 1" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="."]
-tile_set = SubResource("TileSet_6k1qx")
-format = 2
-layer_0/tile_data = PackedInt32Array(-4456471, 1048577, 15)
+[node name="TileMapLayer" parent="." instance=ExtResource("1_poj2o")]
+position = Vector2(520.506, 658.686)
 
 [node name="Car" parent="." instance=ExtResource("1_6k1qx")]
-position = Vector2(-230, 131)
+position = Vector2(101, 2028)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(0.1, 0.1)

@@ -3,18 +3,19 @@
 [ext_resource type="Texture2D" uid="uid://dte646i4lh60v" path="res://PNG/Car_1_Main_Positions/Car_1_01.png" id="1_f50pn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_186t8"]
-size = Vector2(522, 1133)
+size = Vector2(104, 197)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_f50pn"]
 
 [node name="Car" type="CharacterBody2D"]
 
 [node name="Car" type="Sprite2D" parent="."]
-position = Vector2(223, -92)
+position = Vector2(-4.25, -651.5)
+scale = Vector2(0.195575, 0.178883)
 texture = ExtResource("1_f50pn")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(220, -98)
+position = Vector2(0, -653)
 shape = SubResource("RectangleShape2D_186t8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
