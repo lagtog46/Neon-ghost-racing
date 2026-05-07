@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://baprde8n60pns"]
+[gd_scene load_steps=15 format=3 uid="uid://baprde8n60pns"]
 
 [ext_resource type="PackedScene" uid="uid://di35ucrc72yo" path="res://character_body_2d.tscn" id="1_6k1qx"]
 [ext_resource type="PackedScene" uid="uid://q1s2170stspl" path="res://tile_map_layer.tscn" id="1_poj2o"]
@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://cl0wjp3ou0sll" path="res://PNG/Road_01/Road_01_Tile_07/Layers/Road_Side_01.png" id="11_wujfp"]
 [ext_resource type="Texture2D" uid="uid://cix6fsku6p7e1" path="res://PNG/Road_01/Road_01_Tile_04/Layers/Road_Main.png" id="12_bk8l6"]
 [ext_resource type="Texture2D" uid="uid://0dpx283dqg5u" path="res://PNG/Road_01/Road_01_Tile_02/Layers/Road_Main.png" id="13_8ghd8"]
+[ext_resource type="Texture2D" uid="uid://brdwl1nbjtte0" path="res://PNG/Road_01/Road_01_Tile_03/Road_01_Tile_03.png" id="14_0o1vp"]
 
 [node name="Neon Ghost Racing level 1" type="Node2D"]
 
@@ -142,11 +143,71 @@ position = Vector2(1261, 592)
 texture = ExtResource("5_utk3v")
 
 [node name="RoadMain14" type="Sprite2D" parent="."]
-position = Vector2(6359, 1993)
+position = Vector2(6372.54, 1994.39)
 rotation = 1.57781
+scale = Vector2(1.01586, 1.00516)
 texture = ExtResource("13_8ghd8")
 
 [node name="RoadMain15" type="Sprite2D" parent="."]
-position = Vector2(6402, 2527)
+position = Vector2(6417, 2549)
 rotation = -1.57909
 texture = ExtResource("13_8ghd8")
+
+[node name="RoadMain16" type="Sprite2D" parent="."]
+position = Vector2(4410, -796)
+texture = ExtResource("13_8ghd8")
+
+[node name="RoadMain17" type="Sprite2D" parent="."]
+position = Vector2(4951, -802)
+rotation = 1.54699
+texture = ExtResource("13_8ghd8")
+
+[node name="RoadMain18" type="Sprite2D" parent="."]
+position = Vector2(5002.5, -253)
+rotation = -1.57606
+scale = Vector2(1.01084, 0.99816)
+texture = ExtResource("13_8ghd8")
+
+[node name="RoadMain19" type="Sprite2D" parent="."]
+position = Vector2(5587, 333)
+texture = ExtResource("3_mxgds")
+
+[node name="RoadMain20" type="Sprite2D" parent="."]
+position = Vector2(5534.95, -215.805)
+rotation = 1.5617
+scale = Vector2(1.02606, 1.02899)
+texture = ExtResource("13_8ghd8")
+
+[node name="RoadMain21" type="Sprite2D" parent="."]
+position = Vector2(6945, 2570)
+texture = ExtResource("4_0o1vp")
+
+[node name="RoadMain22" type="Sprite2D" parent="."]
+position = Vector2(7451, 2570)
+texture = ExtResource("4_0o1vp")
+
+[node name="RoadMain23" type="Sprite2D" parent="."]
+position = Vector2(6609, 357)
+texture = ExtResource("4_0o1vp")
+
+[node name="RoadMain24" type="Sprite2D" parent="."]
+position = Vector2(6109, 357)
+texture = ExtResource("4_0o1vp")
+
+[node name="Road01Tile03" type="Sprite2D" parent="."]
+position = Vector2(8454, 2572)
+scale = Vector2(1, 1)
+texture = ExtResource("14_0o1vp")
+
+[node name="Road01Tile04" type="Sprite2D" parent="."]
+position = Vector2(7618, 355.5)
+scale = Vector2(1, 1.00436)
+texture = ExtResource("14_0o1vp")
+
+[node name="RoadMain25" type="Sprite2D" parent="."]
+position = Vector2(7117, 355)
+texture = ExtResource("4_0o1vp")
+
+[node name="RoadMain26" type="Sprite2D" parent="."]
+position = Vector2(7946, 2572)
+texture = ExtResource("4_0o1vp")
